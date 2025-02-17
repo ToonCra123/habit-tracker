@@ -1,6 +1,9 @@
 import { View, TextInput, Text, Button } from "react-native";
 import { useState } from "react";
 
+
+// Idk how functions work as a type in TS
+// so just using any for now
 type HabitEntryProps = {
     changeText: any;
     currList: any;

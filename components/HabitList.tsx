@@ -1,6 +1,7 @@
 import { View, Text, FlatList } from "react-native";
 import { Habit } from "../types";
 
+// TypeScript thingy
 type HabitListProps = {
     habits: Habit[];
 };

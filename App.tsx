@@ -8,6 +8,7 @@ import { useState } from 'react';
 export default function App() {
   const [habits, setHabits] = useState<Habit[]>([]);
 
+  // Self explanatory
   return (
     <View style={styles.container}>
       <View style={styles.area1}><Text style={styles.text}>Habit Tracker</Text></View>
